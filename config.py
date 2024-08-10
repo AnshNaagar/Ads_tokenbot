@@ -7,24 +7,24 @@ TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID & API HASH from my.telegram.org [https://youtu.be/gZQJ-yTMkEo?si=H4NlUUgjsIc5btzH]
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "10732129"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "ff00f45b106ccc2a69f1e74d1855e21e")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002206263953"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1674370115"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
 #Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "ultroidxTeam")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Ansh1:TGwow@ansh1.35aemhh.mongodb.net/?retryWrites=true&w=majority&appName=Ansh1")
+DB_NAME = os.environ.get("DATABASE_NAME", "OnionCorn")
 
 #Shortner (token system) 
 # check my discription to help by using my refer link of shareus.io
